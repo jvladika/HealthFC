@@ -1,5 +1,7 @@
 # HealthFC
-The code and data for the paper "**HealthFC: A Dataset of Health Claims for Evidence-Based Medical Fact-Checking**". The dataset can be found in the CSV file _healthFC_annotated.csv_
+The code and data for the paper ["**HealthFC: Verifying Health Claims with Evidence-Based Medical Fact-Checking**"](https://aclanthology.org/2024.lrec-main.709/), accepted to LREC-COLING 2024. 
+
+The dataset can be found in the CSV file _**healthFC_annotated.csv**_
 
 
 Explanation of columns in the dataset:
@@ -31,3 +33,27 @@ _
 - **date**: Initial date the article was posted on. Keep in mind many articles get updated with time.
 - **author**: Authors of the article.
 - **url**: URL that contains the article.
+
+
+To cite the dataset and paper, please use:
+```
+@inproceedings{vladika-etal-2024-healthfc-verifying,
+    title = "{H}ealth{FC}: Verifying Health Claims with Evidence-Based Medical Fact-Checking",
+    author = "Vladika, Juraj  and
+      Schneider, Phillip  and
+      Matthes, Florian",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.709",
+    pages = "8095--8107",
+}
+```
