@@ -1,8 +1,6 @@
 # HealthFC
 The code and data for the paper ["**HealthFC: Verifying Health Claims with Evidence-Based Medical Fact-Checking**"](https://aclanthology.org/2024.lrec-main.709/), accepted to LREC-COLING 2024. 
 
-The dataset can be found in the CSV file _**healthFC_annotated.csv**_
-
 
 Explanation of columns in the dataset:
 
